@@ -20,8 +20,8 @@ div {
 	border: 6px;
     width: 400px;
     height: 200px;
-    position: relative;
-    left: 32%;
+    position: absolute;
+    left: 35%;
 }
 
 .main-frame {
@@ -34,7 +34,6 @@ table {
 	text-align: center;
 	text-transform: uppercase;
 	color: white;
-	position: relative;
 }
 
 td {
@@ -44,23 +43,7 @@ td {
 }
 
 .menu {
-	position: relative;
 	width: 100%;
-}
-
-.menu a:link {
-	color: white;
-	text-decoration: none;
-	padding: 23px 30px;
-}
-
-.menu a:visited {
-	color: orange;
-}
-
-.menu a:hover {
-	color: black;
-	background-color: white;
 }
 
 
