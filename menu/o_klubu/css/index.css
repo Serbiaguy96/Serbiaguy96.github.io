@@ -17,35 +17,126 @@ div {
 }
 
 .logo img{
-	border: 6px;
-    width: 400px;
-    height: 200px;
-    position: absolute;
-    left: 35%;
+	width: 30%;
+	height: 100%;
+	display: block;
+	margin: auto;
 }
 
 .main-frame {
-	height: 70%;
 	background-color: #a3a375;
 	border-bottom: 4px solid;
+	margin-bottom: 40px;
 }
 
-table {
-	text-align: center;
-	text-transform: uppercase;
-	color: white;
-}
 
-td {
-	border: 2px solid black;
+.menu-frame {
+	overflow: hidden;
+	min-height: 20px;
 	background-color: black;
-	padding: 2% 2% 2% 2%;
 }
 
-.menu {
-	width: 100%;
+.menu-frame ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-frame li {
+	float: left;
+	width: 16.65%;
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+	display: block;
+}
+
+.menu-frame li.last-item {
+	border-right: none;
+}
+
+.menu-frame  li a, .dropbtn:link {
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 20px;
 }
 
 
+.menu-frame li a:hover, .dropdown:hover .dropbtn {
+	color: black;
+	background-color: gray;
+}
 
+.menu-frame li.dropdown {
+	display: block;
+}
 
+.dropdown-content {
+	display: none;
+	position: absolute;
+	margin: 0;
+	width: 13.9%;
+	border: none;
+	color: black;
+	background-color: black;
+	min-width: 13.9%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a:link {
+	color: black;
+	padding: 14px 20px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+div.plain_text {
+	border: none;
+	padding: 50px 20px;
+	padding-right: 30%;
+	border-bottom: 1px solid black;
+	display: block;
+}
+
+div.last_article {
+	border: none;
+	padding: 50px 20px;
+	padding-right: 30%;
+	display: block;
+}
+
+.main_frame h1 {
+	text-align: left;
+}
+
+.next-game {
+	position: fixed;
+	width: 25%;
+	height: 15%;
+	right: -60px;
+	top: 300px;
+	border: 4px solid black;
+	background-color: white;
+	line-height: 50%;
+	padding-left: 1%;
+}
+
+.next-game h1 {
+	font-size: 20px;
+}
+
+.next-game span {
+	font-weight: bold;
+}

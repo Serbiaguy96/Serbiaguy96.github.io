@@ -30,6 +30,12 @@ div {
 }
 
 
+.menu-frame {
+	overflow: hidden;
+	min-height: 20px;
+	background-color: black;
+}
+
 .menu-frame ul {
 	list-style-type: none;
 	margin: 0;
@@ -38,11 +44,11 @@ div {
 
 .menu-frame li {
 	float: left;
-	width: 16.59%;
-	border-right: 1px solid white;
+	width: 16.65%;
 	color: white;
 	background-color: black;
 	text-transform: uppercase;
+	display: block;
 }
 
 .menu-frame li.last-item {
@@ -75,13 +81,14 @@ div {
 	border: none;
 	color: black;
 	background-color: black;
-	min-width: 160px;
+	min-width: 13.9%;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
 
 .dropdown-content a:link {
-	color: black;
+	color: white;
+
 	padding: 14px 20px;
 	text-decoration: none;
 	display: block;
@@ -99,6 +106,7 @@ div {
 div.plain_text {
 	border: none;
 	padding: 50px 20px;
+	padding-right: 30%;
 	border-bottom: 1px solid black;
 	display: block;
 }
@@ -106,6 +114,7 @@ div.plain_text {
 div.last_article {
 	border: none;
 	padding: 50px 20px;
+	padding-right: 30%;
 	display: block;
 }
 
@@ -113,3 +122,22 @@ div.last_article {
 	text-align: left;
 }
 
+.next-game {
+	position: fixed;
+	width: 25%;
+	height: 15%;
+	right: -60px;
+	top: 300px;
+	border: 4px solid black;
+	background-color: white;
+	line-height: 50%;
+	padding-left: 1%;
+}
+
+.next-game h1 {
+	font-size: 20px;
+}
+
+.next-game span {
+	font-weight: bold;
+}
